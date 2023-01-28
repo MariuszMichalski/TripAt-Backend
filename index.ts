@@ -7,7 +7,6 @@ const app = express()
 app.use(cors({
     origin: 'http://localhost:3000'
 }));
-
 app.use(json())
 
 app.listen(3001, '0.0.0.0', () => {
